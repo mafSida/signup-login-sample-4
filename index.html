@@ -1,1 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup Login Sample #4</title>
+  </head>
+  <body>
+    <div class="backdrop">
+      <div class="container">
+        <div class="container-header-wrap">
+          <img
+            class="container-logo"
+            src="./img/logo-replacer.jpg"
+            alt="place for a logo"
+            width="48"
+            height="48"
+          />
+          <h1 class="container-title">Create an account</h1>
+          <p class="container-description">
+            Already have an ccount? <a href="#">Log in</a>
+          </p>
+        </div>
+        <div class="auth-btns-wrap">
+          <a class="auth-btn" href="">
+            <svg class="auth-btn-logo" width="25" height="25">
+              <use href="./img/icons.svg#"></use>
+            </svg>
+            Continue with Facebook
+          </a>
+          <a class="auth-btn" href="">
+            <svg class="auth-btn-logo" width="25" height="25">
+              <use href="./img/icons.svg#"></use>
+            </svg>
+            Continue with Google
+          </a>
+        </div>
+        <div class="container-breaker">
+          <!-- use before after or divs -->
+          <p>or</p>
+        </div>
 
+        <div class="signup-form-wrap">
+          <p class="signup-form-description">
+            Enter your email address to create an account.
+          </p>
+          <form class="signup-form">
+            <label class="signup-form-label" for="email">Your email</label>
+            <input
+              class="signup-form-input"
+              type="email"
+              id="email"
+              name="email"
+            />
+            <button type="submit">
+              <svg class="question-icon" width="21" height="21">
+                <use href="./img/icons.svg#"></use>
+              </svg>
+              Create an account
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
